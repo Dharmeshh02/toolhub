@@ -1,0 +1,17 @@
+[
+  { "slug": "ai-assistants", "name": "AI Assistants", "description": "Chat-based AI tools for writing, coding, research and everyday work." },
+  { "slug": "developer-tools", "name": "Developer Tools", "description": "Editors, API clients and command-line tools that developers use daily." },
+  { "slug": "graphics-design", "name": "Graphics & Design", "description": "Image editing, vector graphics, UI design and digital painting software." },
+  { "slug": "ai-development", "name": "AI Development", "description": "Frameworks and tools for building, training and running AI models." },
+  { "slug": "devops-cloud", "name": "DevOps & Cloud", "description": "Containers, orchestration and infrastructure automation tools." },
+  { "slug": "video-editing", "name": "Video Editing", "description": "Professional and free video editors for film and online content." },
+  { "slug": "networking-security", "name": "Networking & Security", "description": "Network scanning, packet analysis and security testing tools." },
+  { "slug": "databases", "name": "Databases", "description": "Relational, document and in-memory databases for applications." },
+  { "slug": "productivity", "name": "Productivity", "description": "Notes, docs and team collaboration tools." },
+  { "slug": "audio-music", "name": "Audio & Music", "description": "Audio editors and digital audio workstations." },
+  { "slug": "3d-animation", "name": "3D & Animation", "description": "Modeling, animation and rendering software." },
+  { "slug": "media-processing", "name": "Media Processing", "description": "Convert, transcode and process audio and video files." },
+  { "slug": "research-academia", "name": "Research & Academia", "description": "Reference managers and citation tools for researchers." },
+  { "slug": "media-players", "name": "Media Players", "description": "Players for almost any audio and video format." },
+  { "slug": "video-streaming", "name": "Video & Streaming", "description": "Recording and live streaming software for creators." }
+]

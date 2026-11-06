@@ -1,0 +1,274 @@
+{
+  "insomnia": {
+    "intro": [
+      "`Insomnia` is an API client for designing, debugging and testing APIs. You can send REST, GraphQL and gRPC requests, inspect the responses and keep your requests organised in collections.",
+      "It suits developers who want a clean desktop app to try an endpoint, compare environments and share requests with a team."
+    ],
+    "capabilities": [
+      { "title": "Many protocols", "text": "Work with REST, GraphQL and gRPC from the same app." },
+      { "title": "Collections", "text": "Group related requests into folders so a whole API is easy to browse." },
+      { "title": "Environments", "text": "Keep base URLs and tokens in variables and switch between development and production in a click." },
+      { "title": "Response viewer", "text": "See status, headers, timing and a formatted body side by side." },
+      { "title": "Import and export", "text": "Bring in requests from other tools or an OpenAPI file instead of retyping them." }
+    ],
+    "helps": [
+      "Insomnia helps you check how an API really behaves before you write client code. Send a request, read the response and adjust until it works.",
+      "Because requests are saved, you can repeat the same checks later or hand them to a teammate."
+    ],
+    "why": [
+      "Developers like Insomnia for its uncluttered interface and quick start. It does the common jobs well without a long setup.",
+      "Support for GraphQL and gRPC next to plain REST makes it handy for teams that mix API styles."
+    ],
+    "workflows": [
+      { "title": "Explore a new API", "text": "Import its OpenAPI file, then try each endpoint from the generated requests." },
+      { "title": "Switch environments", "text": "Point the same requests at local, staging or production by changing the active environment." },
+      { "title": "Debug a failing call", "text": "Inspect headers, status codes and timing to see where a request goes wrong." },
+      { "title": "Share with a team", "text": "Export or sync a collection so everyone tests the same requests." }
+    ],
+    "beyond": [
+      { "feature": "Environments", "purpose": "Store variables such as base URLs and tokens" },
+      { "feature": "Request chaining", "purpose": "Reuse a value from one response in the next request" },
+      { "feature": "Generate code", "purpose": "Turn a request into a snippet you can paste into your project" },
+      { "feature": "Plugins", "purpose": "Extend the app with community add-ons" },
+      { "feature": "Inso CLI", "purpose": "Run tests and checks from the command line and CI" }
+    ],
+    "tips": [
+      "Create separate environments for local, staging and production on day one.",
+      "Name requests clearly so a collection reads like documentation.",
+      "Keep secrets in environment variables, not inside request bodies.",
+      "Use folders that mirror your API's structure.",
+      "Save a request as soon as it works so you can rerun it later."
+    ],
+    "audience": [
+      "Insomnia suits backend and frontend developers, QA engineers and anyone who needs to test APIs by hand.",
+      "It is a good choice when you want a focused API client without a lot of extra features to learn."
+    ]
+  },
+
+  "postman": {
+    "intro": [
+      "`Postman` is an API platform for building, testing, documenting and monitoring APIs. It began as a simple tool for sending requests and has grown into a full workspace for API work.",
+      "Teams use it to keep requests, tests and documentation in one place so everyone works from the same source."
+    ],
+    "capabilities": [
+      { "title": "Request builder", "text": "Create and send requests, then inspect the response body, headers and timing." },
+      { "title": "Collections", "text": "Organise requests into folders and share them with your team." },
+      { "title": "Environments", "text": "Use variables to switch between local, staging and production setups." },
+      { "title": "Automated tests", "text": "Write JavaScript tests that check status codes and response data." },
+      { "title": "Mock servers", "text": "Simulate an API before the real backend is ready." },
+      { "title": "Documentation", "text": "Generate readable API docs from your collections." }
+    ],
+    "helps": [
+      "Postman lets you try an API quickly and then turn those manual checks into repeatable tests.",
+      "It also gives frontend and backend teams a shared reference, so they agree on how an endpoint should behave."
+    ],
+    "why": [
+      "Postman covers the whole API workflow in one app, from the first test request to documentation and monitoring.",
+      "Its large user base means plenty of tutorials, templates and public collections to learn from."
+    ],
+    "workflows": [
+      { "title": "Test an endpoint", "text": "Build a request, send it and compare the response with what you expect." },
+      { "title": "Automate checks", "text": "Add tests to a collection and run it with the collection runner." },
+      { "title": "Collaborate", "text": "Share a workspace so teammates use the same collections and environments." },
+      { "title": "Mock before building", "text": "Create a mock server so the frontend can start while the backend is in progress." },
+      { "title": "Monitor an API", "text": "Schedule collection runs to see whether an API stays healthy." }
+    ],
+    "beyond": [
+      { "feature": "Pre-request scripts", "purpose": "Run code before a request, for example to create a timestamp" },
+      { "feature": "Tests tab", "purpose": "Check status codes and response data after a request" },
+      { "feature": "Collection runner", "purpose": "Run many requests in order" },
+      { "feature": "Newman", "purpose": "Run collections from the command line and CI" },
+      { "feature": "Mock servers", "purpose": "Return example responses from a fake API" },
+      { "feature": "Monitors", "purpose": "Run collections on a schedule" }
+    ],
+    "tips": [
+      "Use environments instead of hard-coding URLs and tokens.",
+      "Add at least a status-code test to every important request.",
+      "Group requests in folders that match your API's structure.",
+      "Save example responses so teammates see what to expect.",
+      "Keep secrets in variables and avoid sharing them in public workspaces."
+    ],
+    "audience": [
+      "Postman is useful for developers, testers and API designers, and for any team that builds or consumes APIs.",
+      "It works for a quick one-off request as well as for a full automated test suite."
+    ]
+  },
+
+  "jq": {
+    "intro": [
+      "`jq` is a lightweight command-line processor for JSON. It reads JSON, applies a filter you write and prints the result, much like `sed` or `grep` do for plain text.",
+      "Because most APIs and many config files use JSON, jq has become a standard way to inspect and reshape that data right in the terminal."
+    ],
+    "capabilities": [
+      { "title": "Filtering", "text": "Pick out exactly the fields you need from a large JSON document." },
+      { "title": "Transforming", "text": "Reshape data, rename keys and build new objects." },
+      { "title": "Pipelines", "text": "Chain filters with the pipe symbol, just like shell commands." },
+      { "title": "Built-in functions", "text": "Use functions such as `map`, `select`, `sort_by` and `length`." },
+      { "title": "Pretty printing", "text": "Turn minified JSON into readable, coloured output." }
+    ],
+    "helps": [
+      "jq lets you answer questions about JSON without writing a script. Need the names of all users older than 30? One short filter does it.",
+      "It also fits naturally into shell scripts, where its output can feed other commands."
+    ],
+    "why": [
+      "jq is small and fast, and it has no dependencies, so it is easy to install on servers and in CI images.",
+      "Its filter language is compact. Once you learn a handful of patterns, you can handle most everyday JSON tasks."
+    ],
+    "commands": [
+      { "cmd": "jq . file.json", "note": "Pretty print a file" },
+      { "cmd": "jq '.name' file.json", "note": "Read one field" },
+      { "cmd": "jq '.items[]' file.json", "note": "Loop over every array item" },
+      { "cmd": "jq '.[] | select(.age > 30)' file.json", "note": "Keep items that match a condition" },
+      { "cmd": "jq 'map(.price)' file.json", "note": "Collect one field from each item" },
+      { "cmd": "jq 'length' file.json", "note": "Count items" },
+      { "cmd": "jq -r '.name' file.json", "note": "Print a raw string without quotes" },
+      { "cmd": "jq -c . file.json", "note": "Print compact one-line output" },
+      { "cmd": "curl -s <url> | jq '.data'", "note": "Filter an API response" }
+    ],
+    "workflows": [
+      { "title": "Inspect an API response", "text": "Pipe the output of `curl` into jq to read only the fields you care about." },
+      { "title": "Extract values for scripts", "text": "Use `-r` to get plain text that a shell script can use." },
+      { "title": "Clean config files", "text": "Reformat or edit JSON configuration in a repeatable way." },
+      { "title": "Search logs", "text": "Filter JSON log lines to find the entries that matter." }
+    ],
+    "beyond": [
+      { "feature": "-r", "purpose": "Output raw text instead of JSON strings" },
+      { "feature": "-c", "purpose": "Print compact one-line JSON" },
+      { "feature": "--arg", "purpose": "Pass a shell variable into a filter" },
+      { "feature": "-s", "purpose": "Read all inputs into a single array" },
+      { "feature": "select()", "purpose": "Keep only values that match a test" },
+      { "feature": "keys", "purpose": "List the keys of an object" }
+    ],
+    "tips": [
+      "Start with `jq .` to see the structure before writing a filter.",
+      "Build filters one step at a time and check the output at each step.",
+      "Put filters in single quotes so the shell leaves them alone.",
+      "Use `-r` when you need plain text for scripts.",
+      "Keep a few favourite one-liners in your notes."
+    ],
+    "audience": [
+      "jq is useful for developers, DevOps engineers, data analysts and anyone who works with JSON from APIs, logs or config files.",
+      "If you already live in the terminal, it quickly becomes a tool you reach for every day."
+    ]
+  },
+
+  "neovim": {
+    "intro": [
+      "`Neovim` is an extensible, keyboard-driven text editor that grew out of Vim. It keeps Vim's fast modal editing and adds a modern codebase, built-in language server support and Lua scripting.",
+      "It runs in the terminal, so it feels the same on your laptop and on a remote server."
+    ],
+    "capabilities": [
+      { "title": "Modal editing", "text": "Separate modes for typing and for commands make editing fast once you learn them." },
+      { "title": "Lua configuration", "text": "Write your setup in Lua instead of older Vim script." },
+      { "title": "Built-in LSP client", "text": "Get diagnostics, go-to-definition and completion from language servers." },
+      { "title": "Tree-sitter", "text": "Fast, accurate syntax highlighting based on code structure." },
+      { "title": "Built-in terminal", "text": "Open a shell inside the editor." },
+      { "title": "Plugin ecosystem", "text": "Add file explorers, fuzzy finders and many other tools." }
+    ],
+    "helps": [
+      "Neovim lets you edit code without leaving the keyboard. Moving, selecting and changing text all become short key sequences.",
+      "You can shape it into a light text editor or a full coding environment, depending on the plugins you add."
+    ],
+    "why": [
+      "People choose Neovim for speed, low resource use and the freedom to configure everything.",
+      "It works the same over SSH, which makes it a favourite for working on servers."
+    ],
+    "commands": [
+      { "cmd": "nvim file.txt", "note": "Open a file" },
+      { "cmd": "i", "note": "Enter insert mode and start typing" },
+      { "cmd": "Esc", "note": "Return to normal mode" },
+      { "cmd": ":w", "note": "Save the file" },
+      { "cmd": ":q", "note": "Quit" },
+      { "cmd": ":wq", "note": "Save and quit" },
+      { "cmd": "dd", "note": "Delete the current line" },
+      { "cmd": "yy", "note": "Copy the current line" },
+      { "cmd": "p", "note": "Paste after the cursor" },
+      { "cmd": "/text", "note": "Search for text" },
+      { "cmd": "u", "note": "Undo" }
+    ],
+    "workflows": [
+      { "title": "Quick edits on a server", "text": "Open a config file over SSH, change it and save, with no graphical tools." },
+      { "title": "Full coding setup", "text": "Add language server and syntax plugins to get completion and diagnostics." },
+      { "title": "Refactoring with macros", "text": "Record a series of edits once and replay it many times." },
+      { "title": "Multi-file work", "text": "Use splits and tabs to view several files at once." }
+    ],
+    "beyond": [
+      { "feature": "init.lua", "purpose": "Your main configuration file" },
+      { "feature": "Plugin manager", "purpose": "Install and update plugins" },
+      { "feature": ":checkhealth", "purpose": "Diagnose problems with your setup" },
+      { "feature": "Macros", "purpose": "Record and replay a sequence of edits" },
+      { "feature": "Splits and tabs", "purpose": "View several files in one window" },
+      { "feature": ":help", "purpose": "Read the built-in documentation" }
+    ],
+    "tips": [
+      "Run `:Tutor` first. It is a short, hands-on lesson inside the editor.",
+      "Start with a small configuration and add plugins one at a time.",
+      "Learn a few motions such as `w`, `b` and `e` before anything advanced.",
+      "Use `:help` when you are stuck, since the docs are thorough.",
+      "Keep your configuration in version control."
+    ],
+    "audience": [
+      "Neovim is a good fit for developers who enjoy keyboard-driven workflows, and for anyone who edits files over SSH.",
+      "It rewards time spent learning, so it suits people who want to build an editor around how they work."
+    ]
+  },
+
+  "visual-studio-code": {
+    "intro": [
+      "`Visual Studio Code` is a free, lightweight code editor from Microsoft that runs on Windows, macOS and Linux. It supports many languages out of the box and grows through extensions.",
+      "It sits between a simple text editor and a full IDE: quick to open, yet capable enough for large projects."
+    ],
+    "capabilities": [
+      { "title": "IntelliSense", "text": "Smart completion, parameter hints and quick information as you type." },
+      { "title": "Extensions", "text": "Add languages, themes, linters and tools from the marketplace." },
+      { "title": "Integrated terminal", "text": "Run commands without leaving the editor." },
+      { "title": "Built-in Git", "text": "See changes, stage files and commit from the sidebar." },
+      { "title": "Debugging", "text": "Set breakpoints and step through code in the editor." },
+      { "title": "Remote development", "text": "Work over SSH, inside containers or in WSL as if the code were local." }
+    ],
+    "helps": [
+      "VS Code gives you one place to write, run, debug and version your code, so you switch between fewer tools.",
+      "You can start with the defaults and add only the extensions your projects need."
+    ],
+    "why": [
+      "It is free, quick to start and works almost everywhere, which is why so many developers and teams adopt it.",
+      "A huge extension library means that nearly every language and framework has good support."
+    ],
+    "commands": [
+      { "cmd": "Ctrl+Shift+P", "note": "Open the Command Palette" },
+      { "cmd": "Ctrl+P", "note": "Jump to a file by name" },
+      { "cmd": "Ctrl+`", "note": "Toggle the integrated terminal" },
+      { "cmd": "Ctrl+B", "note": "Show or hide the sidebar" },
+      { "cmd": "Ctrl+/", "note": "Comment or uncomment lines" },
+      { "cmd": "Ctrl+D", "note": "Select the next matching word" },
+      { "cmd": "F2", "note": "Rename a symbol everywhere" },
+      { "cmd": "F5", "note": "Start debugging" },
+      { "cmd": "Ctrl+Shift+F", "note": "Search across all files" }
+    ],
+    "workflows": [
+      { "title": "Web development", "text": "Edit code, run a dev server in the terminal and debug in the browser from one window." },
+      { "title": "Git workflow", "text": "Review diffs, stage changes and commit without leaving the editor." },
+      { "title": "Remote work", "text": "Open a folder on a server or in a container and edit it directly." },
+      { "title": "Team consistency", "text": "Share workspace settings and recommended extensions with your team." }
+    ],
+    "beyond": [
+      { "feature": "Settings Sync", "purpose": "Keep settings and extensions the same across machines" },
+      { "feature": "Workspaces", "purpose": "Save settings that apply to one project" },
+      { "feature": "Tasks", "purpose": "Run build and test commands from the editor" },
+      { "feature": "Snippets", "purpose": "Insert reusable pieces of code" },
+      { "feature": "Dev containers", "purpose": "Develop inside a container with a ready environment" },
+      { "feature": "Profiles", "purpose": "Switch between setups for different kinds of work" }
+    ],
+    "tips": [
+      "Learn the Command Palette first. Almost every feature is one search away.",
+      "Shortcuts above are for Windows and Linux. On macOS use Cmd instead of Ctrl.",
+      "Install only the extensions you need to keep the editor fast.",
+      "Turn on format on save so your code stays tidy.",
+      "Use workspace settings for project-specific rules."
+    ],
+    "audience": [
+      "VS Code suits beginners and professionals alike, across web, backend, data and scripting work.",
+      "If you want one editor for many languages, it is an easy place to start."
+    ]
+  }
+}

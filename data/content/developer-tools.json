@@ -1,0 +1,61 @@
+{
+  "git": {
+    "intro": [
+      "`Git` is a free, open-source distributed version control system created by Linus Torvalds in 2005. It records every change made to a project so you can review history, undo mistakes and explore ideas in parallel.",
+      "Each developer keeps a full copy of the project history on their own machine, so most actions are fast and work even without an internet connection."
+    ],
+    "capabilities": [
+      { "title": "Snapshots", "text": "Every commit stores the state of your project, so you can return to any earlier point." },
+      { "title": "Cheap branches", "text": "Create a branch in a moment to try a feature without touching the main code." },
+      { "title": "Local first", "text": "History lives on your machine, so commits, diffs and logs need no server." },
+      { "title": "Staging area", "text": "Choose exactly which changes go into the next commit." },
+      { "title": "Full history", "text": "See who changed which line, when and why." }
+    ],
+    "helps": [
+      "Git lets you experiment without fear of breaking a working project. If a change goes wrong, you can step back to a safe state.",
+      "It also makes teamwork practical: people work on separate branches and bring their changes together through a shared remote such as GitHub, GitLab or Bitbucket."
+    ],
+    "why": [
+      "Older systems depended on one central server. Git removes that single point of failure because every clone is a complete backup.",
+      "Its branching model suits modern teams who work on short-lived feature branches, review each other's code and release often."
+    ],
+    "commands": [
+      { "cmd": "git init", "note": "Start a new repository" },
+      { "cmd": "git clone <url>", "note": "Copy an existing repository" },
+      { "cmd": "git status", "note": "See what has changed" },
+      { "cmd": "git add <file>", "note": "Stage changes for commit" },
+      { "cmd": "git commit -m \"message\"", "note": "Save staged changes" },
+      { "cmd": "git branch <name>", "note": "Create a new branch" },
+      { "cmd": "git switch <branch>", "note": "Move to another branch" },
+      { "cmd": "git merge <branch>", "note": "Combine branches" },
+      { "cmd": "git pull", "note": "Fetch and merge remote changes" },
+      { "cmd": "git push", "note": "Upload local commits" }
+    ],
+    "workflows": [
+      { "title": "Feature branches", "text": "Build each feature on its own branch and merge it when it is ready." },
+      { "title": "Code review", "text": "Open a pull request so teammates can review changes before they land." },
+      { "title": "Releases", "text": "Tag a commit to mark a version you shipped." },
+      { "title": "Bug hunting", "text": "Run `git bisect` to find the exact commit that introduced a bug." },
+      { "title": "Open source", "text": "Fork a project, make your change and send it back as a pull request." }
+    ],
+    "beyond": [
+      { "feature": "git rebase", "purpose": "Rewrite history to keep a clean, linear log" },
+      { "feature": "git stash", "purpose": "Set aside unfinished work temporarily" },
+      { "feature": "git cherry-pick", "purpose": "Apply one commit from another branch" },
+      { "feature": "git worktree", "purpose": "Check out several branches in separate folders" },
+      { "feature": "git hooks", "purpose": "Run scripts automatically, for example before a commit" },
+      { "feature": ".gitignore", "purpose": "Keep build files and secrets out of the repository" }
+    ],
+    "tips": [
+      "Commit early and often with clear messages.",
+      "Add a `.gitignore` at the start of every project.",
+      "Prefer small, focused branches over long-lived ones.",
+      "Try `git log --oneline --graph` to see branch history at a glance.",
+      "Practise resolving a merge conflict in a test repository first."
+    ],
+    "audience": [
+      "Git is useful for developers, DevOps engineers, technical writers and anyone who manages files that change over time.",
+      "Whether you work alone on a side project or with hundreds of contributors, it gives you a reliable record of every change."
+    ]
+  }
+}

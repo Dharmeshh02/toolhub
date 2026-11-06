@@ -2,26 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light theme: grey / black / orange */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: 231 231 231;        /* #E7E7E7 */
+  --surface: 231 231 231;
+  --card: 247 247 247;      /* #F7F7F7 */
+  --border: 189 189 189;    /* #BDBDBD */
+  --fg: 23 23 23;           /* #171717 */
+  --muted: 85 85 85;        /* #555555 */
+  --accent: 255 107 26;     /* #FF6B1A */
+  --accent-fg: 23 23 23;    /* orange ke upar ka text */
+
+  --shadow-card: none;
+  --shadow-card-hover: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Dark theme: colors pehle jaise, sirf accent orange */
+.dark {
+  --bg: 9 9 11;
+  --surface: 24 24 27;
+  --card: 17 17 19;
+  --border: 39 39 42;
+  --fg: 250 250 250;
+  --muted: 161 161 170;
+  --accent: 255 107 26;
+  --accent-fg: 23 23 23;
+
+  --shadow-card: none;
+  --shadow-card-hover: none;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  body {
+    @apply bg-bg text-fg antialiased;
+  }
+  ::selection {
+    background: rgb(var(--accent) / 0.35);
+  }
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 2px;
   }
 }
