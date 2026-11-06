@@ -1,0 +1,285 @@
+{
+  "chatgpt": {
+    "intro": [
+      "`ChatGPT` is an AI assistant from OpenAI that you talk to in plain language. You can ask it to write, explain, summarise, brainstorm, translate and help with code, and it answers in a conversation you can keep refining.",
+      "It is available in a web browser and as mobile and desktop apps, so you can use the same assistant on different devices."
+    ],
+    "capabilities": [
+      { "title": "Natural conversation", "text": "Ask follow-up questions and refine an answer step by step." },
+      { "title": "Writing and editing", "text": "Draft, rewrite and shorten text in the tone you choose." },
+      { "title": "Coding help", "text": "Explain code, suggest fixes and write small programs in many languages." },
+      { "title": "Files and images", "text": "Upload documents or pictures and ask questions about them." },
+      { "title": "Image creation", "text": "Generate images from a written description." },
+      { "title": "Current information", "text": "Search the web when an answer needs recent facts." }
+    ],
+    "helps": [
+      "ChatGPT helps you get started faster. A blank page becomes a first draft, a confusing topic becomes a clear explanation, and a bug becomes a list of likely causes.",
+      "Because you can reply to it, you can steer the result: ask for a shorter version, a simpler tone or a different approach."
+    ],
+    "why": [
+      "ChatGPT is one of the most widely used AI assistants. It handles many kinds of tasks in one place, so people use it for study, work and hobbies alike.",
+      "It also works as a platform. Developers can build the same models into their own apps through an API."
+    ],
+    "workflows": [
+      { "title": "Learn a topic", "text": "Ask for an explanation at your level, then request examples and practice questions." },
+      { "title": "Draft and polish", "text": "Write a rough version yourself and ask ChatGPT to improve the structure and tone." },
+      { "title": "Debug code", "text": "Paste the error and the related code, then ask what is going wrong and how to fix it." },
+      { "title": "Analyse a document", "text": "Upload a report or spreadsheet and ask for a summary or key numbers." }
+    ],
+    "beyond": [
+      { "feature": "Custom GPTs", "purpose": "Saved assistants with their own instructions" },
+      { "feature": "Voice mode", "purpose": "Talk to the assistant by speaking" },
+      { "feature": "Memory", "purpose": "Remember your preferences between chats" },
+      { "feature": "Data analysis", "purpose": "Work with spreadsheets and create charts" },
+      { "feature": "Projects", "purpose": "Keep chats and files for one topic together" },
+      { "feature": "API", "purpose": "Let developers build the models into their own apps" }
+    ],
+    "tips": [
+      "Give context: say who the answer is for and what you want to do with it.",
+      "Share an example of the style or format you like.",
+      "Ask it to explain its steps when the answer matters.",
+      "Check important facts, numbers and quotes before relying on them.",
+      "Some features depend on your plan, and they change often, so check the official site for current details."
+    ],
+    "audience": [
+      "ChatGPT suits students, writers, developers, marketers and anyone who wants help with everyday thinking and writing tasks.",
+      "It is a good first AI assistant to try because you can start with a simple question and learn by using it."
+    ]
+  },
+
+  "claude": {
+    "intro": [
+      "`Claude` is an AI assistant made by Anthropic. It helps with writing, analysis, coding and research, and it is often chosen for working through long documents and for careful, detailed answers.",
+      "You can use it in a browser, in mobile and desktop apps, and through an API for your own projects."
+    ],
+    "capabilities": [
+      { "title": "Long documents", "text": "Read and summarise long reports, contracts and papers in one go." },
+      { "title": "Writing and editing", "text": "Draft, revise and adjust tone while keeping your meaning." },
+      { "title": "Coding", "text": "Write, review and explain code across many languages." },
+      { "title": "Files and images", "text": "Work with PDFs, screenshots and other uploads." },
+      { "title": "Artifacts", "text": "See documents, code and small web pages in a side window while you chat." },
+      { "title": "Web search", "text": "Look up current information when a question needs it." }
+    ],
+    "helps": [
+      "Claude helps you think through a problem. You can paste a long document, ask for the key points and then ask follow-up questions about the details.",
+      "It is also handy for turning rough notes into clear text, or for reviewing a draft and pointing out weak spots."
+    ],
+    "why": [
+      "Many people like Claude for its clear, well-organised writing and for the way it handles large amounts of text.",
+      "Alongside the chat app, there are tools for developers, so the same assistant can fit into a coding workflow."
+    ],
+    "workflows": [
+      { "title": "Summarise a long file", "text": "Upload a PDF and ask for a short summary, then for the main risks or open questions." },
+      { "title": "Work on a project", "text": "Keep instructions and reference files together so each chat starts with the right context." },
+      { "title": "Review code", "text": "Paste a function and ask for bugs, edge cases and cleaner alternatives." },
+      { "title": "Build a draft", "text": "Ask for an outline, edit it, then expand each section in turn." }
+    ],
+    "beyond": [
+      { "feature": "Projects", "purpose": "Keep files and instructions together for one piece of work" },
+      { "feature": "Artifacts", "purpose": "Create and edit documents, code and pages beside the chat" },
+      { "feature": "Deep research", "purpose": "Gather information from many sources into a report" },
+      { "feature": "Claude Code", "purpose": "Delegate coding tasks from the command line" },
+      { "feature": "Claude in Chrome", "purpose": "Let the assistant work with websites in your browser" },
+      { "feature": "API", "purpose": "Build Claude into your own apps" }
+    ],
+    "tips": [
+      "Paste the full text instead of a short excerpt when context matters.",
+      "Say what the result is for, for example an email to a client or notes for a class.",
+      "Ask it to point out what it is unsure about.",
+      "Double-check important facts and figures yourself.",
+      "Features and plan limits change often, so check the official site for current details."
+    ],
+    "audience": [
+      "Claude suits writers, researchers, analysts, students and developers, especially anyone who works with long or detailed material.",
+      "It is a good choice when you want a thoughtful second pair of eyes on your work."
+    ]
+  },
+
+  "deepseek": {
+    "intro": [
+      "`DeepSeek` is an AI assistant from DeepSeek, a Chinese AI company. You can chat with it for free on the web and in its app, and the company has released open-weight models that developers can download and run themselves.",
+      "It has drawn attention for strong coding and reasoning results and for making its models easy to access."
+    ],
+    "capabilities": [
+      { "title": "Free chat", "text": "Use the assistant on the web or in the app at no cost." },
+      { "title": "Coding help", "text": "Write, explain and debug code in many languages." },
+      { "title": "Reasoning mode", "text": "Work through maths and logic problems step by step." },
+      { "title": "Web search option", "text": "Turn on search when an answer needs recent information." },
+      { "title": "Open-weight models", "text": "Download models to study, test or run on your own hardware." }
+    ],
+    "helps": [
+      "DeepSeek helps with problems that need careful, step-by-step thinking, such as maths questions, algorithm puzzles and tricky bugs.",
+      "For developers, the open models also make it possible to experiment without relying only on a hosted service."
+    ],
+    "why": [
+      "Its combination of free access, solid coding and reasoning ability, and open model releases makes it popular with students and developers.",
+      "Open weights also let researchers and companies run the models in their own environment."
+    ],
+    "workflows": [
+      { "title": "Solve a problem", "text": "Switch on the reasoning mode and ask it to show its steps." },
+      { "title": "Code review", "text": "Paste a function and ask for bugs, tests and a cleaner version." },
+      { "title": "Learn an algorithm", "text": "Ask for a plain explanation, then a worked example." },
+      { "title": "Local experiments", "text": "Run a smaller open model on your own machine to test ideas privately." }
+    ],
+    "beyond": [
+      { "feature": "Reasoning mode", "purpose": "Show step-by-step thinking for harder problems" },
+      { "feature": "Search", "purpose": "Pull in recent information from the web" },
+      { "feature": "Open-weight models", "purpose": "Download and run the models yourself" },
+      { "feature": "API", "purpose": "Use the models inside your own apps" },
+      { "feature": "Self-hosting", "purpose": "Keep data on your own servers when you run a model locally" }
+    ],
+    "tips": [
+      "State the problem clearly and include the exact error or input.",
+      "Use the reasoning mode for maths and logic, and normal chat for quick questions.",
+      "Check code and calculations before using them in real work.",
+      "Do not paste private or sensitive data into any online chatbot, and read the privacy policy first.",
+      "Features change often, so check the official site for current details."
+    ],
+    "audience": [
+      "DeepSeek suits students, developers and researchers who want a capable free assistant, or open models they can run themselves.",
+      "It is also a good option for anyone comparing different AI assistants."
+    ]
+  },
+
+  "gemini": {
+    "intro": [
+      "`Gemini` is Google's AI assistant. It works with text, images, audio and video, and it connects with Google services such as Search, Gmail and Docs, and with Android phones.",
+      "You can use it on the web, in mobile apps and inside some Google products."
+    ],
+    "capabilities": [
+      { "title": "Multimodal input", "text": "Ask questions about text, pictures, audio and video in the same chat." },
+      { "title": "Google integration", "text": "Work with information from Google apps you choose to connect." },
+      { "title": "Writing and editing", "text": "Draft, rewrite and summarise text for email, documents and more." },
+      { "title": "Coding help", "text": "Explain, write and fix code in many languages." },
+      { "title": "Live conversation", "text": "Talk with the assistant by voice in a natural back-and-forth." },
+      { "title": "Research", "text": "Gather information from many sources into a structured report." }
+    ],
+    "helps": [
+      "Gemini helps most when your work already lives in Google's apps. It can help you summarise an email thread, draft a document or plan around information you have saved.",
+      "Because it understands images and audio too, you can show it a photo or a recording instead of describing it."
+    ],
+    "why": [
+      "Its close link with Google Search and Workspace makes it convenient for people who use those tools every day.",
+      "It is also built into many Android phones, so help is easy to reach."
+    ],
+    "workflows": [
+      { "title": "Plan a trip", "text": "Ask for ideas, compare options and turn the result into a simple itinerary." },
+      { "title": "Summarise your inbox", "text": "Connect your mail and ask for a summary of a long thread or a list of open tasks." },
+      { "title": "Learn from a photo", "text": "Upload a picture of a diagram or a page and ask for an explanation." },
+      { "title": "Research a topic", "text": "Use the research mode to collect sources into a report you can read and check." }
+    ],
+    "beyond": [
+      { "feature": "Gems", "purpose": "Custom assistants with saved instructions" },
+      { "feature": "Gemini Live", "purpose": "Spoken conversation with the assistant" },
+      { "feature": "Deep Research", "purpose": "Multi-step research that ends in a report" },
+      { "feature": "Canvas", "purpose": "A workspace for editing documents and code" },
+      { "feature": "Workspace integration", "purpose": "Use Gmail, Docs and other Google apps with the assistant" },
+      { "feature": "API and AI Studio", "purpose": "Let developers build with the Gemini models" }
+    ],
+    "tips": [
+      "Connect only the apps you are comfortable sharing.",
+      "Attach the image or file instead of describing it.",
+      "Ask it to cite or point to its sources for facts you plan to use.",
+      "Verify important details before you act on them.",
+      "Features and plans change often, so check the official site for current details."
+    ],
+    "audience": [
+      "Gemini suits people who use Google's apps and Android every day, as well as students, researchers and developers.",
+      "It is a natural choice if you want an assistant that sits close to your email, documents and phone."
+    ]
+  },
+
+  "kimi": {
+    "intro": [
+      "`Kimi` is an AI assistant from Moonshot AI, a company based in China. It is known for reading long documents and for research-style tasks, and it is free to use.",
+      "You can chat with it on the web and in mobile apps."
+    ],
+    "capabilities": [
+      { "title": "Long documents", "text": "Read and summarise long texts, reports and papers." },
+      { "title": "Research help", "text": "Gather and organise information on a topic." },
+      { "title": "Writing and summaries", "text": "Draft, rewrite and shorten text." },
+      { "title": "Coding help", "text": "Write, explain and debug code." },
+      { "title": "File uploads", "text": "Ask questions about documents you upload." },
+      { "title": "Web search", "text": "Look up fresh information when a question needs it." }
+    ],
+    "helps": [
+      "Kimi helps when you have a lot of reading to get through. Upload a long document, then ask for the main points or for answers to specific questions.",
+      "It is also useful for first-pass research, where you want a quick overview before reading the sources in depth."
+    ],
+    "why": [
+      "People try Kimi for its strength with long inputs and for its free access.",
+      "Moonshot AI has also released open models, so developers can experiment with the technology behind it."
+    ],
+    "workflows": [
+      { "title": "Digest a long paper", "text": "Upload it, ask for a summary, then ask about the method and the results." },
+      { "title": "Compare sources", "text": "Share several documents and ask where they agree and differ." },
+      { "title": "Prepare a report", "text": "Collect facts with search, then ask for an outline and a first draft." },
+      { "title": "Study notes", "text": "Turn lecture material into short notes and review questions." }
+    ],
+    "beyond": [
+      { "feature": "Long-context reading", "purpose": "Handle very long documents in one chat" },
+      { "feature": "Web search", "purpose": "Bring in current information" },
+      { "feature": "File upload", "purpose": "Ask questions about your own documents" },
+      { "feature": "Open models", "purpose": "Let developers run Moonshot's released models themselves" },
+      { "feature": "API", "purpose": "Build the models into your own apps" }
+    ],
+    "tips": [
+      "Ask specific questions about a long document instead of one broad request.",
+      "Ask for page or section references so you can check the answer.",
+      "Verify key facts before using them in real work.",
+      "Avoid sharing private or sensitive files, and read the privacy policy first.",
+      "Features change often, so check the official site for current details."
+    ],
+    "audience": [
+      "Kimi suits students, researchers, analysts and anyone who regularly reads long material.",
+      "It is a good one to try alongside other assistants when you want to compare how they handle large documents."
+    ]
+  },
+
+  "qwen": {
+    "intro": [
+      "`Qwen` is a family of AI models from Alibaba Cloud. Qwen Chat is the assistant you can talk to on the web, and many of the models are released with open weights.",
+      "The family covers text, images and code, in a range of sizes."
+    ],
+    "capabilities": [
+      { "title": "Multilingual chat", "text": "Work in many languages, including Chinese and English." },
+      { "title": "Open-weight models", "text": "Download models in different sizes to run on your own hardware." },
+      { "title": "Coding models", "text": "Use versions tuned to write and explain code." },
+      { "title": "Image understanding", "text": "Ask questions about pictures with the vision models." },
+      { "title": "Web chat", "text": "Try the models without installing anything." },
+      { "title": "Cloud API", "text": "Use the models through Alibaba Cloud in your own apps." }
+    ],
+    "helps": [
+      "Qwen helps you write, translate, reason and code, and it gives developers a family of models to build on.",
+      "Because there are both small and large versions, you can pick one that fits a laptop or one that needs a server."
+    ],
+    "why": [
+      "Qwen is widely used by developers who want capable open models, and its strong support for several languages makes it useful beyond English.",
+      "A broad family means one project can use the same technology at different sizes and costs."
+    ],
+    "workflows": [
+      { "title": "Translate and write", "text": "Draft text in one language and ask for a natural version in another." },
+      { "title": "Run locally", "text": "Download a smaller model and run it on your machine for private experiments." },
+      { "title": "Build an app", "text": "Call a hosted model through the API and add it to a product." },
+      { "title": "Code assistance", "text": "Use a coding model to write functions and explain unfamiliar code." }
+    ],
+    "beyond": [
+      { "feature": "Model sizes", "purpose": "Choose between small and large versions" },
+      { "feature": "Coding models", "purpose": "Specialised versions for programming tasks" },
+      { "feature": "Vision models", "purpose": "Understand images as well as text" },
+      { "feature": "Open weights", "purpose": "Download, study and fine-tune the models" },
+      { "feature": "Alibaba Cloud API", "purpose": "Use hosted models in your own apps" }
+    ],
+    "tips": [
+      "Start with a small model if you want to try running one locally.",
+      "Check the licence of the specific model before using it in a product.",
+      "Test results in your own language, since quality can differ by task.",
+      "Avoid sharing private data with any online service, and read the privacy policy first.",
+      "Models and features change often, so check the official site for the current list."
+    ],
+    "audience": [
+      "Qwen suits developers, researchers and teams who want open models, and anyone who works across several languages.",
+      "It is also a good choice for people who want to learn how to run an AI model on their own machine."
+    ]
+  }
+}
