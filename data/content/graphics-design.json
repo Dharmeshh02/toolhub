@@ -1,0 +1,241 @@
+{
+  "adobe-photoshop": {
+    "intro": [
+      "`Adobe Photoshop` is a professional image editor used for photo retouching, compositing, digital painting and graphic design. It works with pixels, so you can change every detail of a picture.",
+      "It is sold as part of Adobe's Creative Cloud subscription and runs on Windows and macOS, with companion apps on some other devices."
+    ],
+    "capabilities": [
+      { "title": "Layers", "text": "Stack images, text and effects on separate layers so you can change one without touching the rest." },
+      { "title": "Selections and masks", "text": "Isolate part of an image and hide or reveal it without deleting anything." },
+      { "title": "Adjustment layers", "text": "Change colour, brightness and contrast in a way you can undo or edit later." },
+      { "title": "Retouching tools", "text": "Remove blemishes, clone areas and repair damaged photos." },
+      { "title": "Smart objects", "text": "Resize and filter images without permanently losing quality." },
+      { "title": "Brushes and painting", "text": "Paint and draw with customisable brushes, including pressure-sensitive pen support." }
+    ],
+    "helps": [
+      "Photoshop helps you turn an ordinary photo into the image you imagined. You can fix lighting, remove distractions, swap backgrounds and combine several pictures into one.",
+      "It is also used to prepare artwork for the web, print and social media, with control over size, colour and export."
+    ],
+    "why": [
+      "Photoshop has been an industry standard for years, so designers, photographers and agencies often expect files in its format.",
+      "It connects with other Adobe apps and a large ecosystem of brushes, plugins and tutorials, which makes it easy to find help for almost any task."
+    ],
+    "workflows": [
+      { "title": "Photo retouching", "text": "Adjust exposure and colour, then clean up details with healing and clone tools." },
+      { "title": "Compositing", "text": "Cut out subjects, place them on a new background and blend them with masks." },
+      { "title": "Social and web graphics", "text": "Set up an artboard, add text and shapes, then export for each platform." },
+      { "title": "Mockups", "text": "Place a design inside a product or screen mockup using smart objects." }
+    ],
+    "beyond": [
+      { "feature": "Smart objects", "purpose": "Keep edits and quality when you scale or filter a layer" },
+      { "feature": "Layer masks", "purpose": "Hide parts of a layer without erasing them" },
+      { "feature": "Actions", "purpose": "Record a series of steps and replay them on other images" },
+      { "feature": "Camera Raw", "purpose": "Edit raw photo files before bringing them in" },
+      { "feature": "Generative AI tools", "purpose": "Fill, extend or change areas of an image from a text description" },
+      { "feature": "Export As", "purpose": "Save optimised files for web and apps" }
+    ],
+    "tips": [
+      "Use adjustment layers and masks instead of editing pixels directly, so you can go back.",
+      "Name and group your layers as you work. Large files get confusing quickly.",
+      "Keep a copy of the original photo and save your work as a PSD file.",
+      "Learn a few shortcuts for brush size, undo and zoom to move faster.",
+      "Features and plans change often, so check Adobe's site for current details."
+    ],
+    "audience": [
+      "Photoshop suits photographers, graphic designers, illustrators and marketers who need precise control over images.",
+      "It can feel large for a beginner, but you only need a few tools to start, and you can learn more as your projects grow."
+    ]
+  },
+
+  "figma": {
+    "intro": [
+      "`Figma` is a collaborative design tool for user interfaces, prototypes and design systems. It runs in the browser, with a desktop app as well, so designers, developers and managers can open the same file.",
+      "Its real-time collaboration, where several people edit at once and see each other's cursors, is what set it apart."
+    ],
+    "capabilities": [
+      { "title": "Vector design", "text": "Draw shapes, icons and layouts with precise vector tools." },
+      { "title": "Auto layout", "text": "Make frames that resize and rearrange as content changes." },
+      { "title": "Components and variants", "text": "Build reusable pieces, such as buttons, and switch their states easily." },
+      { "title": "Prototyping", "text": "Link screens together to create clickable flows you can test." },
+      { "title": "Real-time collaboration", "text": "Work in the same file with teammates and leave comments on the design." },
+      { "title": "Plugins and widgets", "text": "Extend the tool with community add-ons." }
+    ],
+    "helps": [
+      "Figma helps teams agree on how a product should look and behave before any code is written. You can draw screens, connect them and share a link for feedback.",
+      "It also reduces hand-offs. Developers can inspect spacing, colours and text styles directly in the file."
+    ],
+    "why": [
+      "Because it runs in a browser, there is nothing complicated to install, and everyone works on the latest version of a file.",
+      "Shared components and styles make it practical to keep a consistent look across a large product."
+    ],
+    "workflows": [
+      { "title": "Design a screen", "text": "Start with a frame, add layout, text and components, then refine the spacing." },
+      { "title": "Build a design system", "text": "Create colour, text styles and components and publish them as a shared library." },
+      { "title": "Prototype a flow", "text": "Connect frames with interactions and share a link to test the idea." },
+      { "title": "Hand off to developers", "text": "Developers inspect measurements and export assets from the same file." }
+    ],
+    "beyond": [
+      { "feature": "Auto layout", "purpose": "Make designs that adapt to content and screen size" },
+      { "feature": "Variables", "purpose": "Store values such as colours and spacing for reuse and theming" },
+      { "feature": "Dev Mode", "purpose": "Give developers inspection tools and specs" },
+      { "feature": "FigJam", "purpose": "Run brainstorms and workshops on an online whiteboard" },
+      { "feature": "Plugins", "purpose": "Add features such as icon libraries and content fillers" },
+      { "feature": "Version history", "purpose": "Go back to an earlier state of the file" }
+    ],
+    "tips": [
+      "Use components for anything you repeat, so one change updates every copy.",
+      "Name layers and frames clearly, because developers will read them.",
+      "Learn auto layout early. It saves a lot of manual resizing.",
+      "Share a view-only link when you want feedback without risking edits.",
+      "Plans and limits change, so check Figma's site for current details."
+    ],
+    "audience": [
+      "Figma suits UI and UX designers, product teams, developers and students who work on apps and websites.",
+      "It is a good place to start because the free plan lets you learn the tool with real projects."
+    ]
+  },
+
+  "gimp": {
+    "intro": [
+      "`GIMP` stands for GNU Image Manipulation Program. It is a free, open-source image editor for photo retouching, compositing and illustration, available on Windows, macOS and Linux.",
+      "Many people use it as a no-cost alternative to paid editors, and it can handle a wide range of everyday and advanced image tasks."
+    ],
+    "capabilities": [
+      { "title": "Layers and masks", "text": "Combine images and control what shows with layer masks." },
+      { "title": "Selection tools", "text": "Choose areas by shape, colour or freehand outline." },
+      { "title": "Retouching", "text": "Clone, heal and sharpen parts of a photo." },
+      { "title": "Colour tools", "text": "Adjust levels, curves, hue and saturation." },
+      { "title": "Filters and effects", "text": "Apply blurs, distortions and many other effects." },
+      { "title": "Scripting and plug-ins", "text": "Automate work and add features through scripts and extensions." }
+    ],
+    "helps": [
+      "GIMP helps you edit photos and make images without paying for software. You can crop and resize, fix colours, remove objects and build graphics for the web.",
+      "Because it is open source, the community adds plug-ins, brushes and tutorials that extend what it can do."
+    ],
+    "why": [
+      "GIMP is free to use and modify, and it works across operating systems, which makes it popular with students, hobbyists and Linux users.",
+      "It reads and writes many file formats, including Photoshop's PSD files in many cases, so it fits into mixed workflows."
+    ],
+    "workflows": [
+      { "title": "Fix a photo", "text": "Crop, straighten, correct colour and sharpen before exporting." },
+      { "title": "Remove an object", "text": "Select it and use healing or clone tools to fill the space." },
+      { "title": "Make a web banner", "text": "Create a new image, add layers for text and shapes, and export a compressed file." },
+      { "title": "Batch edits", "text": "Use scripts or plug-ins to resize or convert many images." }
+    ],
+    "beyond": [
+      { "feature": "Paths tool", "purpose": "Draw precise curves and turn them into selections" },
+      { "feature": "Layer modes", "purpose": "Blend layers in different ways" },
+      { "feature": "Script-Fu and Python-Fu", "purpose": "Automate repeated work with scripts" },
+      { "feature": "Plug-ins", "purpose": "Add extra tools from the community" },
+      { "feature": "XCF format", "purpose": "Save layered files so you can keep editing later" },
+      { "feature": "Customisable interface", "purpose": "Arrange docks and tools to suit your work" }
+    ],
+    "tips": [
+      "Save a layered XCF copy while you work, and export JPG or PNG only at the end.",
+      "Duplicate a layer before experimenting so you can compare results.",
+      "Use layer masks instead of the eraser, so you can undo changes later.",
+      "Check the official site for the current version and its newest features.",
+      "Look for community tutorials when you want a particular effect."
+    ],
+    "audience": [
+      "GIMP suits students, hobbyists, bloggers, small businesses and anyone who needs a capable image editor at no cost.",
+      "It takes some time to learn, but it rewards you with plenty of control."
+    ]
+  },
+
+  "inkscape": {
+    "intro": [
+      "`Inkscape` is a free, open-source vector graphics editor. Instead of pixels, it stores shapes and paths, so drawings stay sharp at any size, from a small icon to a large poster.",
+      "Its main file format is SVG, an open standard that works well on the web."
+    ],
+    "capabilities": [
+      { "title": "Vector drawing", "text": "Draw shapes and curves with Bezier tools and edit every node." },
+      { "title": "Text on paths", "text": "Set type along a curve or inside a shape." },
+      { "title": "Trace bitmap", "text": "Turn a raster picture into editable vector paths." },
+      { "title": "Path operations", "text": "Combine, subtract and intersect shapes to build new ones." },
+      { "title": "Gradients and patterns", "text": "Fill shapes with colour blends and repeating patterns." },
+      { "title": "Extensions", "text": "Add features through built-in and community extensions." }
+    ],
+    "helps": [
+      "Inkscape helps you make artwork that must scale cleanly, such as logos, icons, diagrams and illustrations.",
+      "It is also useful for preparing designs for printing, cutting machines and web graphics."
+    ],
+    "why": [
+      "Inkscape gives you professional vector tools without a licence fee, and SVG is an open format, so your work is not locked to one program.",
+      "It runs on Windows, macOS and Linux, and a helpful community shares tutorials and extensions."
+    ],
+    "workflows": [
+      { "title": "Design a logo", "text": "Sketch with basic shapes, refine the nodes and export it in several sizes." },
+      { "title": "Make an icon set", "text": "Draw icons on a grid and export each one as SVG or PNG." },
+      { "title": "Vectorise a sketch", "text": "Scan a drawing and use Trace Bitmap to turn it into paths." },
+      { "title": "Prepare for cutting or print", "text": "Convert text to paths and organise colours before exporting." }
+    ],
+    "beyond": [
+      { "feature": "Node editor", "purpose": "Adjust the points and handles that define a curve" },
+      { "feature": "Path effects", "purpose": "Apply live, editable changes to a path" },
+      { "feature": "Clones", "purpose": "Make linked copies that update with the original" },
+      { "feature": "Layers and objects panels", "purpose": "Organise complex drawings" },
+      { "feature": "Command-line export", "purpose": "Convert drawings to PNG or PDF from scripts" },
+      { "feature": "Extensions", "purpose": "Add tools for specific jobs" }
+    ],
+    "tips": [
+      "Keep shapes simple and use as few nodes as you can for smooth curves.",
+      "Convert text to paths before sending a file to someone who may not have your fonts.",
+      "Use layers and clear names for anything with many parts.",
+      "Learn the shortcuts for the selection, node and shape tools.",
+      "Save your working file as Inkscape SVG, and export other formats only at the end."
+    ],
+    "audience": [
+      "Inkscape suits graphic designers, illustrators, students, makers and anyone who needs scalable artwork without a paid licence.",
+      "It is also a good fit for technical diagrams and web graphics."
+    ]
+  },
+
+  "krita": {
+    "intro": [
+      "`Krita` is a free, open-source painting program made for digital artists. It is built around drawing and illustration, with a large set of brushes and tools for pen tablets.",
+      "It runs on Windows, macOS and Linux, and its native file format is KRA."
+    ],
+    "capabilities": [
+      { "title": "Brush engines", "text": "Choose from many brush types and tune them to your style." },
+      { "title": "Stabilisers", "text": "Smooth shaky lines so your strokes look cleaner." },
+      { "title": "Layers and masks", "text": "Paint on separate layers, with masks and blend modes." },
+      { "title": "Drawing assistants", "text": "Use guides for perspective, symmetry and straight lines." },
+      { "title": "Animation tools", "text": "Make frame-by-frame animation on a timeline." },
+      { "title": "Colour management", "text": "Work with several colour spaces for screen or print." }
+    ],
+    "helps": [
+      "Krita helps you paint, sketch and ink comics, concept art and illustrations on a computer without buying software.",
+      "Its tools are tuned for drawing, so it feels closer to traditional media than a general photo editor does."
+    ],
+    "why": [
+      "Artists like Krita because it is free, focused on painting and developed with input from working illustrators.",
+      "Its resource system lets you share and install brushes, patterns and templates made by others."
+    ],
+    "workflows": [
+      { "title": "Concept art", "text": "Block in shapes with a large brush, then refine the details on new layers." },
+      { "title": "Comics and manga", "text": "Use panel templates, ink on a separate layer and add tone." },
+      { "title": "Digital painting", "text": "Sketch, colour and finish with custom brushes and blend modes." },
+      { "title": "Simple animation", "text": "Draw frames on the timeline and play them back." }
+    ],
+    "beyond": [
+      { "feature": "Brush presets", "purpose": "Save and share brushes that suit your style" },
+      { "feature": "Wrap-around mode", "purpose": "Paint seamless, repeating textures" },
+      { "feature": "Filter layers and masks", "purpose": "Apply adjustments you can edit later" },
+      { "feature": "Pop-up palette", "purpose": "Pick brushes and colours quickly while you draw" },
+      { "feature": "Animation timeline", "purpose": "Create and edit frame animation" },
+      { "feature": "Python scripting", "purpose": "Automate tasks and add tools" }
+    ],
+    "tips": [
+      "Connect a drawing tablet if you can, since many features are designed for pen pressure.",
+      "Put sketch, colour and lines on different layers so you can change one at a time.",
+      "Try a few brush presets before building your own.",
+      "Turn on a stabiliser for clean line work.",
+      "Save in KRA to keep layers, and export PNG or JPG for sharing."
+    ],
+    "audience": [
+      "Krita suits illustrators, concept artists, comic creators, animators and anyone learning digital painting.",
+      "It is a strong choice if you want a free, art-focused program rather than a general photo editor."
+    ]
+  }
+}
